@@ -1,0 +1,38 @@
+$primaryclr : white;
+
+*{
+    margin: 0;
+    font-family: cursive;
+}
+
+header{
+    width: 100vw;
+
+    nav{
+        background-color: red;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .f-nav{
+            height: 12vh;
+            width: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }    
+
+        .border{
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 1vh 1vw;
+            display: inline-block;
+        }
+
+    h2{
+        color: $primaryclr;
+    }
+}
+
+}
