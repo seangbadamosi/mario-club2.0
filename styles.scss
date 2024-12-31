@@ -8,15 +8,15 @@ $primaryclr : white;
 header{
     width: 100vw;
 
-    nav{
+    nav.f-nav{
         background-color: red;
         width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
 
-        .f-nav{
-            height: 12vh;
+        .flex-1{
+            height: 15vh;
             width: 100vh;
             display: flex;
             justify-content: center;
@@ -30,7 +30,20 @@ header{
             display: inline-block;
         }
 
-    h2{
+        h2{
+            color: $primaryclr;
+        }
+}
+
+nav.s-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    height: 10vh;
+
+    .links{
+        text-decoration: none;
         color: $primaryclr;
     }
 }

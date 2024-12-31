@@ -6,26 +6,37 @@
 header {
   width: 100vw;
 }
-header nav {
+header nav.f-nav {
   background-color: red;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header nav .f-nav {
-  height: 12vh;
+header nav.f-nav .flex-1 {
+  height: 15vh;
   width: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header nav .border {
+header nav.f-nav .border {
   border: 2px solid white;
   border-radius: 20px;
   padding: 1vh 1vw;
   display: inline-block;
 }
-header nav h2 {
+header nav.f-nav h2 {
+  color: white;
+}
+header nav.s-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+  height: 10vh;
+}
+header nav.s-nav .links {
+  text-decoration: none;
   color: white;
 }/*# sourceMappingURL=styles.css.map */
