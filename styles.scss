@@ -4,7 +4,8 @@
     align-items: center;
 }
 
-$primaryclr : white;
+$primaryClr : white;
+$secondaryClr: grey;
 
 *{
     margin: 0;
@@ -36,7 +37,7 @@ header{
         }
 
         h2{
-            color: $primaryclr;
+            color: $primaryClr;
         }
 }
 
@@ -44,13 +45,13 @@ nav.s-nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: grey;
+    background-color:  $secondaryClr;
     height: 10vh;
 
     .links{
         text-decoration: none;
         text-transform: capitalize;
-        color: $primaryclr;
+        color: $primaryClr;
     }
 }
 
@@ -66,7 +67,7 @@ main{
         img.img-fluid{
             height: 100vh;
             width: 98.7vw;
-            margin: 0 0 -4.7px 0;
+            margin: 0 0 -5.7px 0;
         }
 }
 
@@ -89,3 +90,12 @@ main{
 }
 
 
+// Footer Section//
+footer{
+    @include flexCenter();
+    background-color: $secondaryClr;
+    height: 10vh;
+    span{
+        color: $primaryClr;
+    }
+}
