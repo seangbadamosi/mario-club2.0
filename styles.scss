@@ -1,3 +1,9 @@
+@mixin flexCenter(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 $primaryclr : white;
 
 *{
@@ -5,22 +11,20 @@ $primaryclr : white;
     font-family: cursive;
 }
 
+
+// Header Section //
 header{
     width: 100vw;
 
     nav.f-nav{
+        @include flexCenter();
         background-color: red;
         width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
         .flex-1{
+            @include flexCenter();
             height: 15vh;
             width: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }    
 
         .border{
@@ -49,3 +53,5 @@ nav.s-nav{
 }
 
 }
+
+
