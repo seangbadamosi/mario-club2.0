@@ -52,6 +52,11 @@ nav.s-nav{
         text-decoration: none;
         text-transform: capitalize;
         color: $primaryClr;
+        transition: 1s;
+        &:hover{
+            color: red;
+            text-decoration: underline;
+        }
     }
 }
 

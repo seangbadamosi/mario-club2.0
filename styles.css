@@ -41,6 +41,11 @@ header nav.s-nav .links {
   text-decoration: none;
   text-transform: capitalize;
   color: white;
+  transition: 1s;
+}
+header nav.s-nav .links:hover {
+  color: red;
+  text-decoration: underline;
 }
 
 main {
