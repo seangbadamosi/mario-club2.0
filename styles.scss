@@ -111,6 +111,17 @@ main{
             padding: 0 0 10px 0;
         }
     }
+
+    .flex{
+        @include flexCenter();
+        gap: 5vw;
+        margin-bottom: 10vh;
+        .flex-1{
+            width: auto;
+            height: auto;
+        }
+    }
+
 }
 
 

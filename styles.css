@@ -88,6 +88,17 @@ main .card h3 {
   font-size: 30px;
   padding: 0 0 10px 0;
 }
+main .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  margin-bottom: 10vh;
+}
+main .flex .flex-1 {
+  width: auto;
+  height: auto;
+}
 
 footer {
   display: flex;
