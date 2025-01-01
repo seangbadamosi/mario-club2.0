@@ -73,6 +73,7 @@ main{
             height: 100vh;
             width: 98.7vw;
             margin: 0 0 -5.7px 0;
+            background-position: center;
         }
 }
 
@@ -122,6 +123,37 @@ main{
         }
     }
 
+    .p-rel{
+        position: relative;
+    }
+
+    .p-abs{
+        position: absolute !important;
+        bottom: 2vh !important;
+        left: 2vw !important;
+    }
+
+    .cards{
+        background-color: $secondaryClr;
+        padding: 5vh 2vw;
+        border-radius: 20px;
+    }
+
+    form{
+        textarea{
+            overflow: scroll !important;
+        }
+
+        input{
+            height: 4vh;
+        }
+
+        button{
+            background-color: red;
+            color: $primaryClr;
+            height: 4vh;
+        }
+    }
 }
 
 

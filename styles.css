@@ -58,6 +58,7 @@ main .border-bm img.img-fluid {
   height: 100vh;
   width: 98.7vw;
   margin: 0 0 -5.7px 0;
+  background-position: center;
 }
 main .center-align {
   text-align: center;
@@ -98,6 +99,30 @@ main .flex {
 main .flex .flex-1 {
   width: auto;
   height: auto;
+}
+main .p-rel {
+  position: relative;
+}
+main .p-abs {
+  position: absolute !important;
+  bottom: 2vh !important;
+  left: 2vw !important;
+}
+main .cards {
+  background-color: grey;
+  padding: 5vh 2vw;
+  border-radius: 20px;
+}
+main form textarea {
+  overflow: scroll !important;
+}
+main form input {
+  height: 4vh;
+}
+main form button {
+  background-color: red;
+  color: white;
+  height: 4vh;
 }
 
 footer {
