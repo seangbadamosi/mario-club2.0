@@ -92,6 +92,25 @@ main{
         font-size: 50px;
         color: red;
     }
+    
+    .pb-1{
+        padding: 0 0 10px 0
+    }
+
+    .card{
+        background-color: rgb(165, 164, 164);
+        border-radius: 20px;
+        padding: 3vh 0;
+        margin: 10vh 10vw;
+            .red-text{
+            color: red;
+        }
+        
+        h3{
+            font-size: 30px;
+            padding: 0 0 10px 0;
+        }
+    }
 }
 
 

@@ -72,6 +72,22 @@ main h2 {
   font-size: 50px;
   color: red;
 }
+main .pb-1 {
+  padding: 0 0 10px 0;
+}
+main .card {
+  background-color: rgb(165, 164, 164);
+  border-radius: 20px;
+  padding: 3vh 0;
+  margin: 10vh 10vw;
+}
+main .card .red-text {
+  color: red;
+}
+main .card h3 {
+  font-size: 30px;
+  padding: 0 0 10px 0;
+}
 
 footer {
   display: flex;
